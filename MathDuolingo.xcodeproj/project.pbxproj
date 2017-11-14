@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA1A1B512BF0DE414ABDC9A /* Pods_MathDuolingoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF80C4A8DBAC5149607ECCB4 /* Pods_MathDuolingoTests.framework */; };
+		B1BE707F5A2F7DBD197BD8D0 /* Pods_MathDuolingoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F6EE0C335358C826F784A /* Pods_MathDuolingoUITests.framework */; };
+		C95DF1B65AD7A65BF6C0A799 /* Pods_MathDuolingo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5702634808692BFC714093E7 /* Pods_MathDuolingo.framework */; };
+		CF5B13451FAC9CE6004F06A5 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */; };
+		CF8F4DD51FA66BFE007A7316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4DD41FA66BFE007A7316 /* AppDelegate.swift */; };
+		CF8F4DDA1FA66BFE007A7316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8F4DD81FA66BFE007A7316 /* Main.storyboard */; };
+		CF8F4DDC1FA66BFE007A7316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8F4DDB1FA66BFE007A7316 /* Assets.xcassets */; };
+		CF8F4DDF1FA66BFE007A7316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8F4DDD1FA66BFE007A7316 /* LaunchScreen.storyboard */; };
+		CF8F4DEA1FA66BFE007A7316 /* MathDuolingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4DE91FA66BFE007A7316 /* MathDuolingoTests.swift */; };
+		CF8F4DF51FA66BFE007A7316 /* MathDuolingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4DF41FA66BFE007A7316 /* MathDuolingoUITests.swift */; };
+		CF8F4E061FA66DD9007A7316 /* SubjectsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4E051FA66DD9007A7316 /* SubjectsVC.swift */; };
+		CF8F4E081FA66E83007A7316 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4E071FA66E83007A7316 /* Subject.swift */; };
+		CF8F4E0A1FA672D9007A7316 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4E091FA672D9007A7316 /* SubjectCell.swift */; };
+		CF8F4E0C1FA67F6F007A7316 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8F4E0B1FA67F6F007A7316 /* GoogleService-Info.plist */; };
+		CF8F4E0E1FA68550007A7316 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4E0D1FA68550007A7316 /* CustomView.swift */; };
+		CF8F4E101FA68964007A7316 /* SectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4E0F1FA68964007A7316 /* SectionVC.swift */; };
+		CF8F4E131FA68BEA007A7316 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4E121FA68BEA007A7316 /* Util.swift */; };
+		CFFFCAE11FB806DA00793E35 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFCAE01FB806DA00793E35 /* Section.swift */; };
+		CFFFCAE31FB8079400793E35 /* SectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFCAE21FB8079400793E35 /* SectionCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF8F4DE61FA66BFE007A7316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8F4DC91FA66BFD007A7316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8F4DD01FA66BFE007A7316;
+			remoteInfo = MathDuolingo;
+		};
+		CF8F4DF11FA66BFE007A7316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8F4DC91FA66BFD007A7316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8F4DD01FA66BFE007A7316;
+			remoteInfo = MathDuolingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220590FCC2F6F5DA50E7EC8D /* Pods-MathDuolingoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoTests/Pods-MathDuolingoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4113493EE07428B3F58580A7 /* Pods-MathDuolingoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoUITests/Pods-MathDuolingoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5702634808692BFC714093E7 /* Pods_MathDuolingo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57ED3CC544B7A546EDD7159D /* Pods-MathDuolingo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo.release.xcconfig"; sourceTree = "<group>"; };
+		86BF200FD6015381E953A983 /* Pods-MathDuolingoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoTests/Pods-MathDuolingoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D4F454C3F616F1BB8BD281D /* Pods-MathDuolingo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo.debug.xcconfig"; sourceTree = "<group>"; };
+		96E4C9D9CA690118AFB103C8 /* Pods-MathDuolingoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoUITests/Pods-MathDuolingoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B77F6EE0C335358C826F784A /* Pods_MathDuolingoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		CF8F4DD11FA66BFE007A7316 /* MathDuolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathDuolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8F4DD41FA66BFE007A7316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF8F4DD91FA66BFE007A7316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF8F4DDB1FA66BFE007A7316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8F4DDE1FA66BFE007A7316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF8F4DE01FA66BFE007A7316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8F4DE51FA66BFE007A7316 /* MathDuolingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathDuolingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8F4DE91FA66BFE007A7316 /* MathDuolingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathDuolingoTests.swift; sourceTree = "<group>"; };
+		CF8F4DEB1FA66BFE007A7316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8F4DF01FA66BFE007A7316 /* MathDuolingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathDuolingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8F4DF41FA66BFE007A7316 /* MathDuolingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathDuolingoUITests.swift; sourceTree = "<group>"; };
+		CF8F4DF61FA66BFE007A7316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8F4E051FA66DD9007A7316 /* SubjectsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsVC.swift; sourceTree = "<group>"; };
+		CF8F4E071FA66E83007A7316 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		CF8F4E091FA672D9007A7316 /* SubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = "<group>"; };
+		CF8F4E0B1FA67F6F007A7316 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF8F4E0D1FA68550007A7316 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		CF8F4E0F1FA68964007A7316 /* SectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionVC.swift; sourceTree = "<group>"; };
+		CF8F4E121FA68BEA007A7316 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		CFFFCAE01FB806DA00793E35 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		CFFFCAE21FB8079400793E35 /* SectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCell.swift; sourceTree = "<group>"; };
+		EF80C4A8DBAC5149607ECCB4 /* Pods_MathDuolingoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF8F4DCE1FA66BFE007A7316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95DF1B65AD7A65BF6C0A799 /* Pods_MathDuolingo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8F4DE21FA66BFE007A7316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA1A1B512BF0DE414ABDC9A /* Pods_MathDuolingoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8F4DED1FA66BFE007A7316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BE707F5A2F7DBD197BD8D0 /* Pods_MathDuolingoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462F9DF81FFE3DBB64CCD681 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D4F454C3F616F1BB8BD281D /* Pods-MathDuolingo.debug.xcconfig */,
+				57ED3CC544B7A546EDD7159D /* Pods-MathDuolingo.release.xcconfig */,
+				220590FCC2F6F5DA50E7EC8D /* Pods-MathDuolingoTests.debug.xcconfig */,
+				86BF200FD6015381E953A983 /* Pods-MathDuolingoTests.release.xcconfig */,
+				4113493EE07428B3F58580A7 /* Pods-MathDuolingoUITests.debug.xcconfig */,
+				96E4C9D9CA690118AFB103C8 /* Pods-MathDuolingoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		488F6C4567D8CCDC75475C6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5702634808692BFC714093E7 /* Pods_MathDuolingo.framework */,
+				EF80C4A8DBAC5149607ECCB4 /* Pods_MathDuolingoTests.framework */,
+				B77F6EE0C335358C826F784A /* Pods_MathDuolingoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF8F4DC81FA66BFD007A7316 = {
+			isa = PBXGroup;
+			children = (
+				CF8F4DD31FA66BFE007A7316 /* MathDuolingo */,
+				CF8F4DE81FA66BFE007A7316 /* MathDuolingoTests */,
+				CF8F4DF31FA66BFE007A7316 /* MathDuolingoUITests */,
+				CF8F4DD21FA66BFE007A7316 /* Products */,
+				462F9DF81FFE3DBB64CCD681 /* Pods */,
+				488F6C4567D8CCDC75475C6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8F4DD21FA66BFE007A7316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F4DD11FA66BFE007A7316 /* MathDuolingo.app */,
+				CF8F4DE51FA66BFE007A7316 /* MathDuolingoTests.xctest */,
+				CF8F4DF01FA66BFE007A7316 /* MathDuolingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8F4DD31FA66BFE007A7316 /* MathDuolingo */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F4E041FA66C1A007A7316 /* Model */,
+				CF8F4E031FA66C10007A7316 /* View */,
+				CF8F4E021FA66C08007A7316 /* Controller */,
+				CF8F4E111FA68BD7007A7316 /* Utilities */,
+				CF8F4DD41FA66BFE007A7316 /* AppDelegate.swift */,
+				CF8F4DD81FA66BFE007A7316 /* Main.storyboard */,
+				CF8F4E0B1FA67F6F007A7316 /* GoogleService-Info.plist */,
+				CF8F4DDB1FA66BFE007A7316 /* Assets.xcassets */,
+				CF8F4DDD1FA66BFE007A7316 /* LaunchScreen.storyboard */,
+				CF8F4DE01FA66BFE007A7316 /* Info.plist */,
+			);
+			path = MathDuolingo;
+			sourceTree = "<group>";
+		};
+		CF8F4DE81FA66BFE007A7316 /* MathDuolingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F4DE91FA66BFE007A7316 /* MathDuolingoTests.swift */,
+				CF8F4DEB1FA66BFE007A7316 /* Info.plist */,
+			);
+			path = MathDuolingoTests;
+			sourceTree = "<group>";
+		};
+		CF8F4DF31FA66BFE007A7316 /* MathDuolingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F4DF41FA66BFE007A7316 /* MathDuolingoUITests.swift */,
+				CF8F4DF61FA66BFE007A7316 /* Info.plist */,
+			);
+			path = MathDuolingoUITests;
+			sourceTree = "<group>";
+		};
+		CF8F4E021FA66C08007A7316 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F4E051FA66DD9007A7316 /* SubjectsVC.swift */,
+				CF8F4E0F1FA68964007A7316 /* SectionVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF8F4E031FA66C10007A7316 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F4E091FA672D9007A7316 /* SubjectCell.swift */,
+				CF8F4E0D1FA68550007A7316 /* CustomView.swift */,
+				CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */,
+				CFFFCAE21FB8079400793E35 /* SectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF8F4E041FA66C1A007A7316 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F4E071FA66E83007A7316 /* Subject.swift */,
+				CFFFCAE01FB806DA00793E35 /* Section.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CF8F4E111FA68BD7007A7316 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F4E121FA68BEA007A7316 /* Util.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8F4DD01FA66BFE007A7316 /* MathDuolingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8F4DF91FA66BFE007A7316 /* Build configuration list for PBXNativeTarget "MathDuolingo" */;
+			buildPhases = (
+				FFD5996A393A6F7B78DF562B /* [CP] Check Pods Manifest.lock */,
+				CF8F4DCD1FA66BFE007A7316 /* Sources */,
+				CF8F4DCE1FA66BFE007A7316 /* Frameworks */,
+				CF8F4DCF1FA66BFE007A7316 /* Resources */,
+				3DE2A4C9E2E3E5C88067C4BB /* [CP] Embed Pods Frameworks */,
+				00EFB7359107B8DD02AF3FEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathDuolingo;
+			productName = MathDuolingo;
+			productReference = CF8F4DD11FA66BFE007A7316 /* MathDuolingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF8F4DE41FA66BFE007A7316 /* MathDuolingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8F4DFC1FA66BFE007A7316 /* Build configuration list for PBXNativeTarget "MathDuolingoTests" */;
+			buildPhases = (
+				C851AD259D6FB030B6EE09FF /* [CP] Check Pods Manifest.lock */,
+				CF8F4DE11FA66BFE007A7316 /* Sources */,
+				CF8F4DE21FA66BFE007A7316 /* Frameworks */,
+				CF8F4DE31FA66BFE007A7316 /* Resources */,
+				53DFA26BAB0968FB2F4A5C0A /* [CP] Embed Pods Frameworks */,
+				CB3C4CDF637A07DF1B730CF1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8F4DE71FA66BFE007A7316 /* PBXTargetDependency */,
+			);
+			name = MathDuolingoTests;
+			productName = MathDuolingoTests;
+			productReference = CF8F4DE51FA66BFE007A7316 /* MathDuolingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF8F4DEF1FA66BFE007A7316 /* MathDuolingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8F4DFF1FA66BFE007A7316 /* Build configuration list for PBXNativeTarget "MathDuolingoUITests" */;
+			buildPhases = (
+				9C45A4D5E0DD83553BE7D5E5 /* [CP] Check Pods Manifest.lock */,
+				CF8F4DEC1FA66BFE007A7316 /* Sources */,
+				CF8F4DED1FA66BFE007A7316 /* Frameworks */,
+				CF8F4DEE1FA66BFE007A7316 /* Resources */,
+				47823C92BD362FD283FDF545 /* [CP] Embed Pods Frameworks */,
+				1CD38053D2E11FBCDF4EF131 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8F4DF21FA66BFE007A7316 /* PBXTargetDependency */,
+			);
+			name = MathDuolingoUITests;
+			productName = MathDuolingoUITests;
+			productReference = CF8F4DF01FA66BFE007A7316 /* MathDuolingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8F4DC91FA66BFD007A7316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Trevor Rose";
+				TargetAttributes = {
+					CF8F4DD01FA66BFE007A7316 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF8F4DE41FA66BFE007A7316 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF8F4DD01FA66BFE007A7316;
+					};
+					CF8F4DEF1FA66BFE007A7316 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF8F4DD01FA66BFE007A7316;
+					};
+				};
+			};
+			buildConfigurationList = CF8F4DCC1FA66BFD007A7316 /* Build configuration list for PBXProject "MathDuolingo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8F4DC81FA66BFD007A7316;
+			productRefGroup = CF8F4DD21FA66BFE007A7316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8F4DD01FA66BFE007A7316 /* MathDuolingo */,
+				CF8F4DE41FA66BFE007A7316 /* MathDuolingoTests */,
+				CF8F4DEF1FA66BFE007A7316 /* MathDuolingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF8F4DCF1FA66BFE007A7316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8F4DDF1FA66BFE007A7316 /* LaunchScreen.storyboard in Resources */,
+				CF8F4E0C1FA67F6F007A7316 /* GoogleService-Info.plist in Resources */,
+				CF8F4DDC1FA66BFE007A7316 /* Assets.xcassets in Resources */,
+				CF8F4DDA1FA66BFE007A7316 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8F4DE31FA66BFE007A7316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8F4DEE1FA66BFE007A7316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00EFB7359107B8DD02AF3FEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CD38053D2E11FBCDF4EF131 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathDuolingoUITests/Pods-MathDuolingoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DE2A4C9E2E3E5C88067C4BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Pager/Pager.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47823C92BD362FD283FDF545 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathDuolingoUITests/Pods-MathDuolingoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53DFA26BAB0968FB2F4A5C0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathDuolingoTests/Pods-MathDuolingoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C45A4D5E0DD83553BE7D5E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathDuolingoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C851AD259D6FB030B6EE09FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathDuolingoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB3C4CDF637A07DF1B730CF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathDuolingoTests/Pods-MathDuolingoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD5996A393A6F7B78DF562B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathDuolingo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF8F4DCD1FA66BFE007A7316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFFCAE11FB806DA00793E35 /* Section.swift in Sources */,
+				CF8F4E0E1FA68550007A7316 /* CustomView.swift in Sources */,
+				CF8F4E0A1FA672D9007A7316 /* SubjectCell.swift in Sources */,
+				CFFFCAE31FB8079400793E35 /* SectionCell.swift in Sources */,
+				CF8F4E061FA66DD9007A7316 /* SubjectsVC.swift in Sources */,
+				CF8F4E101FA68964007A7316 /* SectionVC.swift in Sources */,
+				CF5B13451FAC9CE6004F06A5 /* CustomCollectionCell.swift in Sources */,
+				CF8F4E131FA68BEA007A7316 /* Util.swift in Sources */,
+				CF8F4E081FA66E83007A7316 /* Subject.swift in Sources */,
+				CF8F4DD51FA66BFE007A7316 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8F4DE11FA66BFE007A7316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8F4DEA1FA66BFE007A7316 /* MathDuolingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8F4DEC1FA66BFE007A7316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8F4DF51FA66BFE007A7316 /* MathDuolingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF8F4DE71FA66BFE007A7316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8F4DD01FA66BFE007A7316 /* MathDuolingo */;
+			targetProxy = CF8F4DE61FA66BFE007A7316 /* PBXContainerItemProxy */;
+		};
+		CF8F4DF21FA66BFE007A7316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8F4DD01FA66BFE007A7316 /* MathDuolingo */;
+			targetProxy = CF8F4DF11FA66BFE007A7316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF8F4DD81FA66BFE007A7316 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8F4DD91FA66BFE007A7316 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF8F4DDD1FA66BFE007A7316 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8F4DDE1FA66BFE007A7316 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF8F4DF71FA66BFE007A7316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF8F4DF81FA66BFE007A7316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8F4DFA1FA66BFE007A7316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4F454C3F616F1BB8BD281D /* Pods-MathDuolingo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62T85YASV;
+				INFOPLIST_FILE = MathDuolingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF8F4DFB1FA66BFE007A7316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57ED3CC544B7A546EDD7159D /* Pods-MathDuolingo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62T85YASV;
+				INFOPLIST_FILE = MathDuolingo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF8F4DFD1FA66BFE007A7316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220590FCC2F6F5DA50E7EC8D /* Pods-MathDuolingoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = MathDuolingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathDuolingo.app/MathDuolingo";
+			};
+			name = Debug;
+		};
+		CF8F4DFE1FA66BFE007A7316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BF200FD6015381E953A983 /* Pods-MathDuolingoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = MathDuolingoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathDuolingo.app/MathDuolingo";
+			};
+			name = Release;
+		};
+		CF8F4E001FA66BFE007A7316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4113493EE07428B3F58580A7 /* Pods-MathDuolingoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = MathDuolingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MathDuolingo;
+			};
+			name = Debug;
+		};
+		CF8F4E011FA66BFE007A7316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E4C9D9CA690118AFB103C8 /* Pods-MathDuolingoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F5M35K84C;
+				INFOPLIST_FILE = MathDuolingoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MathDuolingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF8F4DCC1FA66BFD007A7316 /* Build configuration list for PBXProject "MathDuolingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8F4DF71FA66BFE007A7316 /* Debug */,
+				CF8F4DF81FA66BFE007A7316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8F4DF91FA66BFE007A7316 /* Build configuration list for PBXNativeTarget "MathDuolingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8F4DFA1FA66BFE007A7316 /* Debug */,
+				CF8F4DFB1FA66BFE007A7316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8F4DFC1FA66BFE007A7316 /* Build configuration list for PBXNativeTarget "MathDuolingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8F4DFD1FA66BFE007A7316 /* Debug */,
+				CF8F4DFE1FA66BFE007A7316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8F4DFF1FA66BFE007A7316 /* Build configuration list for PBXNativeTarget "MathDuolingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8F4E001FA66BFE007A7316 /* Debug */,
+				CF8F4E011FA66BFE007A7316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF8F4DC91FA66BFD007A7316 /* Project object */;
+}
