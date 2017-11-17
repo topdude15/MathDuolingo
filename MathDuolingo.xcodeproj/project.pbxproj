@@ -11,6 +11,11 @@
 		B1BE707F5A2F7DBD197BD8D0 /* Pods_MathDuolingoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F6EE0C335358C826F784A /* Pods_MathDuolingoUITests.framework */; };
 		C95DF1B65AD7A65BF6C0A799 /* Pods_MathDuolingo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5702634808692BFC714093E7 /* Pods_MathDuolingo.framework */; };
 		CF5B13451FAC9CE6004F06A5 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */; };
+		CF8EFA141FBBD987006E0005 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF8EFA131FBBD986006E0005 /* TitilliumWeb-Light.ttf */; };
+		CF8EFA161FBBD99C006E0005 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF8EFA151FBBD99C006E0005 /* TitilliumWeb-Bold.ttf */; };
+		CF8EFA1D1FBDD261006E0005 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA1C1FBDD261006E0005 /* WelcomeVC.swift */; };
+		CF8EFA1F1FBDD261006E0005 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA1E1FBDD261006E0005 /* SignInVC.swift */; };
+		CF8EFA211FBE1A8A006E0005 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA201FBE1A8A006E0005 /* CustomTextField.swift */; };
 		CF8F4DD51FA66BFE007A7316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4DD41FA66BFE007A7316 /* AppDelegate.swift */; };
 		CF8F4DDA1FA66BFE007A7316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8F4DD81FA66BFE007A7316 /* Main.storyboard */; };
 		CF8F4DDC1FA66BFE007A7316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8F4DDB1FA66BFE007A7316 /* Assets.xcassets */; };
@@ -24,6 +29,8 @@
 		CF8F4E0E1FA68550007A7316 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4E0D1FA68550007A7316 /* CustomView.swift */; };
 		CF8F4E101FA68964007A7316 /* SectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4E0F1FA68964007A7316 /* SectionVC.swift */; };
 		CF8F4E131FA68BEA007A7316 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4E121FA68BEA007A7316 /* Util.swift */; };
+		CFD7538F1FB9102E00301764 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7538E1FB9102E00301764 /* CustomButton.swift */; };
+		CFD753931FBBD52000301764 /* ConfirmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD753921FBBD52000301764 /* ConfirmVC.swift */; };
 		CFFFCAE11FB806DA00793E35 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFCAE01FB806DA00793E35 /* Section.swift */; };
 		CFFFCAE31FB8079400793E35 /* SectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFFCAE21FB8079400793E35 /* SectionCell.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +62,11 @@
 		96E4C9D9CA690118AFB103C8 /* Pods-MathDuolingoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoUITests/Pods-MathDuolingoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B77F6EE0C335358C826F784A /* Pods_MathDuolingoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		CF8EFA131FBBD986006E0005 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		CF8EFA151FBBD99C006E0005 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		CF8EFA1C1FBDD261006E0005 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		CF8EFA1E1FBDD261006E0005 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		CF8EFA201FBE1A8A006E0005 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		CF8F4DD11FA66BFE007A7316 /* MathDuolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathDuolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8F4DD41FA66BFE007A7316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF8F4DD91FA66BFE007A7316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,6 +86,8 @@
 		CF8F4E0D1FA68550007A7316 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		CF8F4E0F1FA68964007A7316 /* SectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionVC.swift; sourceTree = "<group>"; };
 		CF8F4E121FA68BEA007A7316 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		CFD7538E1FB9102E00301764 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		CFD753921FBBD52000301764 /* ConfirmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmVC.swift; sourceTree = "<group>"; };
 		CFFFCAE01FB806DA00793E35 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		CFFFCAE21FB8079400793E35 /* SectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCell.swift; sourceTree = "<group>"; };
 		EF80C4A8DBAC5149607ECCB4 /* Pods_MathDuolingoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +175,8 @@
 				CF8F4E111FA68BD7007A7316 /* Utilities */,
 				CF8F4DD41FA66BFE007A7316 /* AppDelegate.swift */,
 				CF8F4DD81FA66BFE007A7316 /* Main.storyboard */,
+				CF8EFA151FBBD99C006E0005 /* TitilliumWeb-Bold.ttf */,
+				CF8EFA131FBBD986006E0005 /* TitilliumWeb-Light.ttf */,
 				CF8F4E0B1FA67F6F007A7316 /* GoogleService-Info.plist */,
 				CF8F4DDB1FA66BFE007A7316 /* Assets.xcassets */,
 				CF8F4DDD1FA66BFE007A7316 /* LaunchScreen.storyboard */,
@@ -192,6 +208,9 @@
 			children = (
 				CF8F4E051FA66DD9007A7316 /* SubjectsVC.swift */,
 				CF8F4E0F1FA68964007A7316 /* SectionVC.swift */,
+				CFD753921FBBD52000301764 /* ConfirmVC.swift */,
+				CF8EFA1C1FBDD261006E0005 /* WelcomeVC.swift */,
+				CF8EFA1E1FBDD261006E0005 /* SignInVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -203,6 +222,8 @@
 				CF8F4E0D1FA68550007A7316 /* CustomView.swift */,
 				CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */,
 				CFFFCAE21FB8079400793E35 /* SectionCell.swift */,
+				CFD7538E1FB9102E00301764 /* CustomButton.swift */,
+				CF8EFA201FBE1A8A006E0005 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,9 +362,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8EFA161FBBD99C006E0005 /* TitilliumWeb-Bold.ttf in Resources */,
 				CF8F4DDF1FA66BFE007A7316 /* LaunchScreen.storyboard in Resources */,
 				CF8F4E0C1FA67F6F007A7316 /* GoogleService-Info.plist in Resources */,
 				CF8F4DDC1FA66BFE007A7316 /* Assets.xcassets in Resources */,
+				CF8EFA141FBBD987006E0005 /* TitilliumWeb-Light.ttf in Resources */,
 				CF8F4DDA1FA66BFE007A7316 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +426,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Pager/Pager.framework",
@@ -418,6 +442,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pager.framework",
@@ -545,12 +570,17 @@
 				CF8F4E0E1FA68550007A7316 /* CustomView.swift in Sources */,
 				CF8F4E0A1FA672D9007A7316 /* SubjectCell.swift in Sources */,
 				CFFFCAE31FB8079400793E35 /* SectionCell.swift in Sources */,
+				CF8EFA1F1FBDD261006E0005 /* SignInVC.swift in Sources */,
+				CF8EFA1D1FBDD261006E0005 /* WelcomeVC.swift in Sources */,
 				CF8F4E061FA66DD9007A7316 /* SubjectsVC.swift in Sources */,
 				CF8F4E101FA68964007A7316 /* SectionVC.swift in Sources */,
 				CF5B13451FAC9CE6004F06A5 /* CustomCollectionCell.swift in Sources */,
+				CFD7538F1FB9102E00301764 /* CustomButton.swift in Sources */,
 				CF8F4E131FA68BEA007A7316 /* Util.swift in Sources */,
+				CFD753931FBBD52000301764 /* ConfirmVC.swift in Sources */,
 				CF8F4E081FA66E83007A7316 /* Subject.swift in Sources */,
 				CF8F4DD51FA66BFE007A7316 /* AppDelegate.swift in Sources */,
+				CF8EFA211FBE1A8A006E0005 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,7 +751,7 @@
 				DEVELOPMENT_TEAM = W62T85YASV;
 				INFOPLIST_FILE = MathDuolingo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.MathDuolingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -737,7 +767,7 @@
 				DEVELOPMENT_TEAM = W62T85YASV;
 				INFOPLIST_FILE = MathDuolingo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.MathDuolingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

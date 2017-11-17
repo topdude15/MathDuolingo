@@ -60,21 +60,13 @@ class SectionVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         }
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let section = sections[indexPath.row]
+        Util.ds.sectionKey = section.sectionKey
+        self.performSegue(withIdentifier: "confirm", sender: nil)
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func backTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "subjects", sender: nil)
     }
-    */
-
 }

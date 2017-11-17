@@ -13,4 +13,5 @@ class Util {
     static let ds = Util()
     
     var subjectKey = "key"
+    var sectionKey = "key"
 }
