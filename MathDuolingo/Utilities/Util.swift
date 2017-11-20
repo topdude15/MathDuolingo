@@ -14,4 +14,6 @@ class Util {
     
     var subjectKey = "key"
     var sectionKey = "key"
+    var email = "email"
+    var password = "password"
 }

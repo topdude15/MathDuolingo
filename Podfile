@@ -13,7 +13,6 @@ target 'MathDuolingo' do
   pod 'Firebase/Auth'
   pod 'Pulley'
   pod 'Pager'
-  pod 'ESTabBarController-swift'
   
   target 'MathDuolingoTests' do
     inherit! :search_paths

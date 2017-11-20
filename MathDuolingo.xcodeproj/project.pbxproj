@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AEA1A1B512BF0DE414ABDC9A /* Pods_MathDuolingoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF80C4A8DBAC5149607ECCB4 /* Pods_MathDuolingoTests.framework */; };
-		B1BE707F5A2F7DBD197BD8D0 /* Pods_MathDuolingoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F6EE0C335358C826F784A /* Pods_MathDuolingoUITests.framework */; };
-		C95DF1B65AD7A65BF6C0A799 /* Pods_MathDuolingo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5702634808692BFC714093E7 /* Pods_MathDuolingo.framework */; };
+		303481068635AA7AD17A2C8A /* Pods_MathDuolingoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6128B4B35DABB7139A5509E2 /* Pods_MathDuolingoTests.framework */; };
+		4CB92ACC55556D6DA2E5B323 /* Pods_MathDuolingo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE17D7E5808B272F4315586 /* Pods_MathDuolingo.framework */; };
+		4ECF94213E419E3176CE2F40 /* Pods_MathDuolingoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7715BEED6710EF95D7AD0B9 /* Pods_MathDuolingoUITests.framework */; };
 		CF5B13451FAC9CE6004F06A5 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */; };
 		CF8EFA141FBBD987006E0005 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF8EFA131FBBD986006E0005 /* TitilliumWeb-Light.ttf */; };
 		CF8EFA161FBBD99C006E0005 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF8EFA151FBBD99C006E0005 /* TitilliumWeb-Bold.ttf */; };
 		CF8EFA1D1FBDD261006E0005 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA1C1FBDD261006E0005 /* WelcomeVC.swift */; };
 		CF8EFA1F1FBDD261006E0005 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA1E1FBDD261006E0005 /* SignInVC.swift */; };
 		CF8EFA211FBE1A8A006E0005 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA201FBE1A8A006E0005 /* CustomTextField.swift */; };
+		CF8EFA231FBE7B5F006E0005 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA221FBE7B5F006E0005 /* SignUpVC.swift */; };
+		CF8EFA251FBFA012006E0005 /* CompleteProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA241FBFA012006E0005 /* CompleteProfileVC.swift */; };
+		CF8EFA611FBFDA53006E0005 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA601FBFDA52006E0005 /* LaunchScreenVC.swift */; };
 		CF8F4DD51FA66BFE007A7316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F4DD41FA66BFE007A7316 /* AppDelegate.swift */; };
 		CF8F4DDA1FA66BFE007A7316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8F4DD81FA66BFE007A7316 /* Main.storyboard */; };
 		CF8F4DDC1FA66BFE007A7316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8F4DDB1FA66BFE007A7316 /* Assets.xcassets */; };
@@ -53,30 +56,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		220590FCC2F6F5DA50E7EC8D /* Pods-MathDuolingoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoTests/Pods-MathDuolingoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4113493EE07428B3F58580A7 /* Pods-MathDuolingoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoUITests/Pods-MathDuolingoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5702634808692BFC714093E7 /* Pods_MathDuolingo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57ED3CC544B7A546EDD7159D /* Pods-MathDuolingo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo.release.xcconfig"; sourceTree = "<group>"; };
-		86BF200FD6015381E953A983 /* Pods-MathDuolingoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoTests/Pods-MathDuolingoTests.release.xcconfig"; sourceTree = "<group>"; };
-		8D4F454C3F616F1BB8BD281D /* Pods-MathDuolingo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo.debug.xcconfig"; sourceTree = "<group>"; };
-		96E4C9D9CA690118AFB103C8 /* Pods-MathDuolingoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoUITests/Pods-MathDuolingoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B77F6EE0C335358C826F784A /* Pods_MathDuolingoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0501C2FBDB9A2DA96308B226 /* Pods-MathDuolingoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoUITests/Pods-MathDuolingoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1EE17D7E5808B272F4315586 /* Pods_MathDuolingo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5E5DAAF580C39C97532860 /* Pods-MathDuolingo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo.release.xcconfig"; sourceTree = "<group>"; };
+		30DCA40616E05CE013A5671E /* Pods-MathDuolingoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoTests/Pods-MathDuolingoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6128B4B35DABB7139A5509E2 /* Pods_MathDuolingoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B02A32F83D2D424F9ABC5C4 /* Pods-MathDuolingoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoUITests/Pods-MathDuolingoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA1E989DB991FAAE97E36BCD /* Pods-MathDuolingoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingoTests/Pods-MathDuolingoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF4B6F3B1FC1282500FD50F7 /* MathDuolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathDuolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4B6F3C1FC1282500FD50F7 /* MathDuolingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathDuolingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4B6F3D1FC1282500FD50F7 /* MathDuolingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathDuolingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4B6F3F1FC1284800FD50F7 /* MathDuolingo.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = MathDuolingo.app; path = "../../Library/Developer/Xcode/DerivedData/MathDuolingo-gphfwaxekkigmjcvgijgqlpkdijm/Build/Products/Debug-iphoneos/MathDuolingo.app"; sourceTree = "<group>"; };
+		CF4B6F401FC1284A00FD50F7 /* MathDuolingoTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = MathDuolingoTests.xctest; path = "../../Library/Developer/Xcode/DerivedData/MathDuolingo-gphfwaxekkigmjcvgijgqlpkdijm/Build/Products/Debug-iphoneos/MathDuolingoTests.xctest"; sourceTree = "<group>"; };
+		CF4B6F411FC1284C00FD50F7 /* MathDuolingoUITests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = MathDuolingoUITests.xctest; path = "../../Library/Developer/Xcode/DerivedData/MathDuolingo-gphfwaxekkigmjcvgijgqlpkdijm/Build/Products/Debug-iphoneos/MathDuolingoUITests.xctest"; sourceTree = "<group>"; };
 		CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
 		CF8EFA131FBBD986006E0005 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
 		CF8EFA151FBBD99C006E0005 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
 		CF8EFA1C1FBDD261006E0005 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		CF8EFA1E1FBDD261006E0005 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		CF8EFA201FBE1A8A006E0005 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		CF8F4DD11FA66BFE007A7316 /* MathDuolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathDuolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8EFA221FBE7B5F006E0005 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		CF8EFA241FBFA012006E0005 /* CompleteProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfileVC.swift; sourceTree = "<group>"; };
+		CF8EFA601FBFDA52006E0005 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
 		CF8F4DD41FA66BFE007A7316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF8F4DD91FA66BFE007A7316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF8F4DDB1FA66BFE007A7316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF8F4DDE1FA66BFE007A7316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8F4DE01FA66BFE007A7316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF8F4DE51FA66BFE007A7316 /* MathDuolingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathDuolingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8F4DE91FA66BFE007A7316 /* MathDuolingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathDuolingoTests.swift; sourceTree = "<group>"; };
 		CF8F4DEB1FA66BFE007A7316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF8F4DF01FA66BFE007A7316 /* MathDuolingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathDuolingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8F4DF41FA66BFE007A7316 /* MathDuolingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathDuolingoUITests.swift; sourceTree = "<group>"; };
 		CF8F4DF61FA66BFE007A7316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF8F4E051FA66DD9007A7316 /* SubjectsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsVC.swift; sourceTree = "<group>"; };
@@ -90,7 +98,8 @@
 		CFD753921FBBD52000301764 /* ConfirmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmVC.swift; sourceTree = "<group>"; };
 		CFFFCAE01FB806DA00793E35 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		CFFFCAE21FB8079400793E35 /* SectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCell.swift; sourceTree = "<group>"; };
-		EF80C4A8DBAC5149607ECCB4 /* Pods_MathDuolingoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7715BEED6710EF95D7AD0B9 /* Pods_MathDuolingoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathDuolingoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98CD7ED48A3AF27D6C988F2 /* Pods-MathDuolingo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathDuolingo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C95DF1B65AD7A65BF6C0A799 /* Pods_MathDuolingo.framework in Frameworks */,
+				4CB92ACC55556D6DA2E5B323 /* Pods_MathDuolingo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA1A1B512BF0DE414ABDC9A /* Pods_MathDuolingoTests.framework in Frameworks */,
+				303481068635AA7AD17A2C8A /* Pods_MathDuolingoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,32 +123,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1BE707F5A2F7DBD197BD8D0 /* Pods_MathDuolingoUITests.framework in Frameworks */,
+				4ECF94213E419E3176CE2F40 /* Pods_MathDuolingoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		462F9DF81FFE3DBB64CCD681 /* Pods */ = {
+		3131D24864A479D1C11381BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D4F454C3F616F1BB8BD281D /* Pods-MathDuolingo.debug.xcconfig */,
-				57ED3CC544B7A546EDD7159D /* Pods-MathDuolingo.release.xcconfig */,
-				220590FCC2F6F5DA50E7EC8D /* Pods-MathDuolingoTests.debug.xcconfig */,
-				86BF200FD6015381E953A983 /* Pods-MathDuolingoTests.release.xcconfig */,
-				4113493EE07428B3F58580A7 /* Pods-MathDuolingoUITests.debug.xcconfig */,
-				96E4C9D9CA690118AFB103C8 /* Pods-MathDuolingoUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		488F6C4567D8CCDC75475C6C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5702634808692BFC714093E7 /* Pods_MathDuolingo.framework */,
-				EF80C4A8DBAC5149607ECCB4 /* Pods_MathDuolingoTests.framework */,
-				B77F6EE0C335358C826F784A /* Pods_MathDuolingoUITests.framework */,
+				1EE17D7E5808B272F4315586 /* Pods_MathDuolingo.framework */,
+				6128B4B35DABB7139A5509E2 /* Pods_MathDuolingoTests.framework */,
+				D7715BEED6710EF95D7AD0B9 /* Pods_MathDuolingoUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,20 +146,13 @@
 				CF8F4DD31FA66BFE007A7316 /* MathDuolingo */,
 				CF8F4DE81FA66BFE007A7316 /* MathDuolingoTests */,
 				CF8F4DF31FA66BFE007A7316 /* MathDuolingoUITests */,
-				CF8F4DD21FA66BFE007A7316 /* Products */,
-				462F9DF81FFE3DBB64CCD681 /* Pods */,
-				488F6C4567D8CCDC75475C6C /* Frameworks */,
+				E6BB7529371AC879C2D31367 /* Pods */,
+				3131D24864A479D1C11381BC /* Frameworks */,
+				CF98D4581FC126D9005176D5 /* Products */,
+				CF4B6F3B1FC1282500FD50F7 /* MathDuolingo.app */,
+				CF4B6F3C1FC1282500FD50F7 /* MathDuolingoTests.xctest */,
+				CF4B6F3D1FC1282500FD50F7 /* MathDuolingoUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		CF8F4DD21FA66BFE007A7316 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CF8F4DD11FA66BFE007A7316 /* MathDuolingo.app */,
-				CF8F4DE51FA66BFE007A7316 /* MathDuolingoTests.xctest */,
-				CF8F4DF01FA66BFE007A7316 /* MathDuolingoUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CF8F4DD31FA66BFE007A7316 /* MathDuolingo */ = {
@@ -211,6 +200,9 @@
 				CFD753921FBBD52000301764 /* ConfirmVC.swift */,
 				CF8EFA1C1FBDD261006E0005 /* WelcomeVC.swift */,
 				CF8EFA1E1FBDD261006E0005 /* SignInVC.swift */,
+				CF8EFA221FBE7B5F006E0005 /* SignUpVC.swift */,
+				CF8EFA241FBFA012006E0005 /* CompleteProfileVC.swift */,
+				CF8EFA601FBFDA52006E0005 /* LaunchScreenVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,6 +238,29 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		CF98D4581FC126D9005176D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4B6F3F1FC1284800FD50F7 /* MathDuolingo.app */,
+				CF4B6F401FC1284A00FD50F7 /* MathDuolingoTests.xctest */,
+				CF4B6F411FC1284C00FD50F7 /* MathDuolingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6BB7529371AC879C2D31367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F98CD7ED48A3AF27D6C988F2 /* Pods-MathDuolingo.debug.xcconfig */,
+				2C5E5DAAF580C39C97532860 /* Pods-MathDuolingo.release.xcconfig */,
+				30DCA40616E05CE013A5671E /* Pods-MathDuolingoTests.debug.xcconfig */,
+				AA1E989DB991FAAE97E36BCD /* Pods-MathDuolingoTests.release.xcconfig */,
+				7B02A32F83D2D424F9ABC5C4 /* Pods-MathDuolingoUITests.debug.xcconfig */,
+				0501C2FBDB9A2DA96308B226 /* Pods-MathDuolingoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -266,7 +281,7 @@
 			);
 			name = MathDuolingo;
 			productName = MathDuolingo;
-			productReference = CF8F4DD11FA66BFE007A7316 /* MathDuolingo.app */;
+			productReference = CF4B6F3B1FC1282500FD50F7 /* MathDuolingo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CF8F4DE41FA66BFE007A7316 /* MathDuolingoTests */ = {
@@ -287,7 +302,7 @@
 			);
 			name = MathDuolingoTests;
 			productName = MathDuolingoTests;
-			productReference = CF8F4DE51FA66BFE007A7316 /* MathDuolingoTests.xctest */;
+			productReference = CF4B6F3C1FC1282500FD50F7 /* MathDuolingoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CF8F4DEF1FA66BFE007A7316 /* MathDuolingoUITests */ = {
@@ -308,7 +323,7 @@
 			);
 			name = MathDuolingoUITests;
 			productName = MathDuolingoUITests;
-			productReference = CF8F4DF01FA66BFE007A7316 /* MathDuolingoUITests.xctest */;
+			productReference = CF4B6F3D1FC1282500FD50F7 /* MathDuolingoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -346,7 +361,7 @@
 				Base,
 			);
 			mainGroup = CF8F4DC81FA66BFD007A7316;
-			productRefGroup = CF8F4DD21FA66BFE007A7316 /* Products */;
+			productRefGroup = CF8F4DC81FA66BFD007A7316;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -426,7 +441,6 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MathDuolingo/Pods-MathDuolingo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
-				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Pager/Pager.framework",
@@ -442,7 +456,6 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pager.framework",
@@ -571,15 +584,18 @@
 				CF8F4E0A1FA672D9007A7316 /* SubjectCell.swift in Sources */,
 				CFFFCAE31FB8079400793E35 /* SectionCell.swift in Sources */,
 				CF8EFA1F1FBDD261006E0005 /* SignInVC.swift in Sources */,
+				CF8EFA611FBFDA53006E0005 /* LaunchScreenVC.swift in Sources */,
 				CF8EFA1D1FBDD261006E0005 /* WelcomeVC.swift in Sources */,
 				CF8F4E061FA66DD9007A7316 /* SubjectsVC.swift in Sources */,
 				CF8F4E101FA68964007A7316 /* SectionVC.swift in Sources */,
+				CF8EFA231FBE7B5F006E0005 /* SignUpVC.swift in Sources */,
 				CF5B13451FAC9CE6004F06A5 /* CustomCollectionCell.swift in Sources */,
 				CFD7538F1FB9102E00301764 /* CustomButton.swift in Sources */,
 				CF8F4E131FA68BEA007A7316 /* Util.swift in Sources */,
 				CFD753931FBBD52000301764 /* ConfirmVC.swift in Sources */,
 				CF8F4E081FA66E83007A7316 /* Subject.swift in Sources */,
 				CF8F4DD51FA66BFE007A7316 /* AppDelegate.swift in Sources */,
+				CF8EFA251FBFA012006E0005 /* CompleteProfileVC.swift in Sources */,
 				CF8EFA211FBE1A8A006E0005 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -744,12 +760,34 @@
 		};
 		CF8F4DFA1FA66BFE007A7316 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D4F454C3F616F1BB8BD281D /* Pods-MathDuolingo.debug.xcconfig */;
+			baseConfigurationReference = F98CD7ED48A3AF27D6C988F2 /* Pods-MathDuolingo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W62T85YASV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAuth/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseDatabase/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseFirestore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseStorage/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAuth/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseDatabase/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseFirestore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseStorage/Frameworks",
+				);
 				INFOPLIST_FILE = MathDuolingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.MathDuolingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -760,12 +798,34 @@
 		};
 		CF8F4DFB1FA66BFE007A7316 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57ED3CC544B7A546EDD7159D /* Pods-MathDuolingo.release.xcconfig */;
+			baseConfigurationReference = 2C5E5DAAF580C39C97532860 /* Pods-MathDuolingo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W62T85YASV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAuth/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseDatabase/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseFirestore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseStorage/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseAuth/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseDatabase/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseFirestore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingo-master\\ 2/Pods/FirebaseStorage/Frameworks",
+				);
 				INFOPLIST_FILE = MathDuolingo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftstudios.MathDuolingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -776,7 +836,7 @@
 		};
 		CF8F4DFD1FA66BFE007A7316 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 220590FCC2F6F5DA50E7EC8D /* Pods-MathDuolingoTests.debug.xcconfig */;
+			baseConfigurationReference = 30DCA40616E05CE013A5671E /* Pods-MathDuolingoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -794,7 +854,7 @@
 		};
 		CF8F4DFE1FA66BFE007A7316 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86BF200FD6015381E953A983 /* Pods-MathDuolingoTests.release.xcconfig */;
+			baseConfigurationReference = AA1E989DB991FAAE97E36BCD /* Pods-MathDuolingoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -812,11 +872,21 @@
 		};
 		CF8F4E001FA66BFE007A7316 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4113493EE07428B3F58580A7 /* Pods-MathDuolingoUITests.debug.xcconfig */;
+			baseConfigurationReference = 7B02A32F83D2D424F9ABC5C4 /* Pods-MathDuolingoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F5M35K84C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseAuth/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseDatabase/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseFirestore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseStorage/Frameworks",
+				);
 				INFOPLIST_FILE = MathDuolingoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingoUITests;
@@ -829,11 +899,21 @@
 		};
 		CF8F4E011FA66BFE007A7316 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96E4C9D9CA690118AFB103C8 /* Pods-MathDuolingoUITests.release.xcconfig */;
+			baseConfigurationReference = 0501C2FBDB9A2DA96308B226 /* Pods-MathDuolingoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9F5M35K84C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseAuth/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseDatabase/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseFirestore/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/MathDuolingoUITests/MathDuolingo-master/Pods/FirebaseStorage/Frameworks",
+				);
 				INFOPLIST_FILE = MathDuolingoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keyloftStudios.MathDuolingoUITests;

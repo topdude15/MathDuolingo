@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9824026383B39003A707DE6DFBD7F65"
+               BlueprintIdentifier = "8A80AFFBF5EE11E6EF21C81C7B9DCD39"
                BuildableName = "Pods_MathDuolingo.framework"
                BlueprintName = "Pods-MathDuolingo"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9824026383B39003A707DE6DFBD7F65"
+            BlueprintIdentifier = "8A80AFFBF5EE11E6EF21C81C7B9DCD39"
             BuildableName = "Pods_MathDuolingo.framework"
             BlueprintName = "Pods-MathDuolingo"
             ReferencedContainer = "container:Pods.xcodeproj">

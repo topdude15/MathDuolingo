@@ -5,7 +5,6 @@ PODS:
   - BoringSSL/Implementation (9.1):
     - BoringSSL/Interface (= 9.1)
   - BoringSSL/Interface (9.1)
-  - ESTabBarController-swift (2.5)
   - Firebase (4.6.0):
     - Firebase/Core (= 4.6.0)
   - Firebase/Auth (4.6.0):
@@ -91,7 +90,6 @@ PODS:
   - Pulley (2.1.0)
 
 DEPENDENCIES:
-  - ESTabBarController-swift
   - Firebase
   - Firebase/Auth
   - Firebase/Database
@@ -102,7 +100,6 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   BoringSSL: 84318770d120503ab1a6aaf1df777c5ca053697e
-  ESTabBarController-swift: 8daa432f2a9be8ebd25101dc46c84472fd760512
   Firebase: 27321a925aa85520618255a7c630859e0502ccbd
   FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
   FirebaseAuth: e58563adb207a43910a2ed87fecb9fa7d556df5a
@@ -123,6 +120,6 @@ SPEC CHECKSUMS:
   Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
   Pulley: 7abf04a13c0d4681b3c21a4b4bb0bc83612899ae
 
-PODFILE CHECKSUM: f77f62b18d2cd7b64ac0caf1430e1e4e93e5137c
+PODFILE CHECKSUM: 7fa5edc768e5e7e3a47b518c1ff7fe6d7159d306
 
 COCOAPODS: 1.3.1
