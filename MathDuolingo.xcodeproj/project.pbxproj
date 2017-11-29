@@ -10,7 +10,9 @@
 		303481068635AA7AD17A2C8A /* Pods_MathDuolingoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6128B4B35DABB7139A5509E2 /* Pods_MathDuolingoTests.framework */; };
 		4CB92ACC55556D6DA2E5B323 /* Pods_MathDuolingo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE17D7E5808B272F4315586 /* Pods_MathDuolingo.framework */; };
 		4ECF94213E419E3176CE2F40 /* Pods_MathDuolingoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7715BEED6710EF95D7AD0B9 /* Pods_MathDuolingoUITests.framework */; };
+		CF4B6F431FC13ABD00FD50F7 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4B6F421FC13ABD00FD50F7 /* CustomImage.swift */; };
 		CF5B13451FAC9CE6004F06A5 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */; };
+		CF76C9031FC7C06E00A29DCA /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76C9021FC7C06E00A29DCA /* QuestionVC.swift */; };
 		CF8EFA141FBBD987006E0005 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF8EFA131FBBD986006E0005 /* TitilliumWeb-Light.ttf */; };
 		CF8EFA161FBBD99C006E0005 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF8EFA151FBBD99C006E0005 /* TitilliumWeb-Bold.ttf */; };
 		CF8EFA1D1FBDD261006E0005 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EFA1C1FBDD261006E0005 /* WelcomeVC.swift */; };
@@ -69,7 +71,9 @@
 		CF4B6F3F1FC1284800FD50F7 /* MathDuolingo.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = MathDuolingo.app; path = "../../Library/Developer/Xcode/DerivedData/MathDuolingo-gphfwaxekkigmjcvgijgqlpkdijm/Build/Products/Debug-iphoneos/MathDuolingo.app"; sourceTree = "<group>"; };
 		CF4B6F401FC1284A00FD50F7 /* MathDuolingoTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = MathDuolingoTests.xctest; path = "../../Library/Developer/Xcode/DerivedData/MathDuolingo-gphfwaxekkigmjcvgijgqlpkdijm/Build/Products/Debug-iphoneos/MathDuolingoTests.xctest"; sourceTree = "<group>"; };
 		CF4B6F411FC1284C00FD50F7 /* MathDuolingoUITests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = MathDuolingoUITests.xctest; path = "../../Library/Developer/Xcode/DerivedData/MathDuolingo-gphfwaxekkigmjcvgijgqlpkdijm/Build/Products/Debug-iphoneos/MathDuolingoUITests.xctest"; sourceTree = "<group>"; };
+		CF4B6F421FC13ABD00FD50F7 /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 		CF5B13441FAC9CE6004F06A5 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		CF76C9021FC7C06E00A29DCA /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
 		CF8EFA131FBBD986006E0005 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
 		CF8EFA151FBBD99C006E0005 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
 		CF8EFA1C1FBDD261006E0005 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 				CF8EFA221FBE7B5F006E0005 /* SignUpVC.swift */,
 				CF8EFA241FBFA012006E0005 /* CompleteProfileVC.swift */,
 				CF8EFA601FBFDA52006E0005 /* LaunchScreenVC.swift */,
+				CF76C9021FC7C06E00A29DCA /* QuestionVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				CFFFCAE21FB8079400793E35 /* SectionCell.swift */,
 				CFD7538E1FB9102E00301764 /* CustomButton.swift */,
 				CF8EFA201FBE1A8A006E0005 /* CustomTextField.swift */,
+				CF4B6F421FC13ABD00FD50F7 /* CustomImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -587,9 +593,11 @@
 				CF8EFA611FBFDA53006E0005 /* LaunchScreenVC.swift in Sources */,
 				CF8EFA1D1FBDD261006E0005 /* WelcomeVC.swift in Sources */,
 				CF8F4E061FA66DD9007A7316 /* SubjectsVC.swift in Sources */,
+				CF76C9031FC7C06E00A29DCA /* QuestionVC.swift in Sources */,
 				CF8F4E101FA68964007A7316 /* SectionVC.swift in Sources */,
 				CF8EFA231FBE7B5F006E0005 /* SignUpVC.swift in Sources */,
 				CF5B13451FAC9CE6004F06A5 /* CustomCollectionCell.swift in Sources */,
+				CF4B6F431FC13ABD00FD50F7 /* CustomImage.swift in Sources */,
 				CFD7538F1FB9102E00301764 /* CustomButton.swift in Sources */,
 				CF8F4E131FA68BEA007A7316 /* Util.swift in Sources */,
 				CFD753931FBBD52000301764 /* ConfirmVC.swift in Sources */,

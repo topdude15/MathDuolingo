@@ -9,17 +9,37 @@
 import UIKit
 import Firebase
 
-class CompleteProfileVC: UIViewController, UITextFieldDelegate {
+class CompleteProfileVC: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var nameBox: UITextField!
     @IBOutlet weak var usernameBox: UITextField!
+    
+    var imageSelected = false
+    var imagePicker: UIImagePickerController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         self.nameBox.delegate = self
         self.usernameBox.delegate = self
+        
+        imagePicker = UIImagePickerController()
+        imagePicker.allowsEditing = true
+        imagePicker.delegate = self
         // Do any additional setup after loading the view.
+    }
+    @IBAction func tapUserImage(_ sender: Any) {
+        present(imagePicker, animated: true, completion: nil)
+    }
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let image = info[UIImagePickerControllerEditedImage] as? UIImage {
+            userImage.image = image
+            imageSelected = true
+        } else {
+            print("Invalid image selected")
+        }
+        imagePicker.dismiss(animated: true, completion: nil)
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.view.endEditing(true)

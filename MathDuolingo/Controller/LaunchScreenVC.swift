@@ -14,10 +14,14 @@ class LaunchScreenVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if let uid = Auth.auth().currentUser?.uid {
-            print(uid)
+        if (Auth.auth().currentUser?.uid) != nil {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+                self.performSegue(withIdentifier: "loggedIn", sender: nil)
+            })
         } else {
-            print("Not logged in")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+              self.performSegue(withIdentifier: "start", sender: nil)
+            })
         }
     }
 }
