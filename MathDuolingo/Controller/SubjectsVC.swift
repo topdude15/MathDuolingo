@@ -50,6 +50,7 @@ class SubjectsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let subject = subjects[indexPath.row]
         Util.ds.subjectKey = subject.subjectKey
+        print(Util.ds.subjectKey)
         performSegue(withIdentifier: "subject", sender: nil)
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

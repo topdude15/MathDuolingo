@@ -17,6 +17,6 @@ class ConfirmVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func beginPressed(_ sender: Any) {
-        
+        self.performSegue(withIdentifier: "start", sender: nil)
     }
 }

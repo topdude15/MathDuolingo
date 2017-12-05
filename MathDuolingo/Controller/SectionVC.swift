@@ -63,6 +63,7 @@ class SectionVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let section = sections[indexPath.row]
         Util.ds.sectionKey = section.sectionKey
+        print(Util.ds.sectionKey)
         self.performSegue(withIdentifier: "confirm", sender: nil)
     }
 
