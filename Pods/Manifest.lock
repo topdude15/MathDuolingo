@@ -5,6 +5,7 @@ PODS:
   - BoringSSL/Implementation (9.1):
     - BoringSSL/Interface (= 9.1)
   - BoringSSL/Interface (9.1)
+  - CircleProgressView (1.1.3)
   - Firebase (4.6.0):
     - Firebase/Core (= 4.6.0)
   - Firebase/Auth (4.6.0):
@@ -88,8 +89,10 @@ PODS:
   - Pager (1.2.0)
   - Protobuf (3.4.0)
   - Pulley (2.1.0)
+  - SkyFloatingLabelTextField (3.4.0)
 
 DEPENDENCIES:
+  - CircleProgressView (~> 1.0)
   - Firebase
   - Firebase/Auth
   - Firebase/Database
@@ -97,9 +100,11 @@ DEPENDENCIES:
   - Firebase/Storage
   - Pager
   - Pulley
+  - SkyFloatingLabelTextField (~> 3.0)
 
 SPEC CHECKSUMS:
   BoringSSL: 84318770d120503ab1a6aaf1df777c5ca053697e
+  CircleProgressView: 66e4d663a2bc7a9086e37b518868be923cd0a23a
   Firebase: 27321a925aa85520618255a7c630859e0502ccbd
   FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
   FirebaseAuth: e58563adb207a43910a2ed87fecb9fa7d556df5a
@@ -114,12 +119,13 @@ SPEC CHECKSUMS:
   gRPC-ProtoRPC: b7259f51cbc19b77c7a38d96f52a00c3a4ea1637
   gRPC-RxLibrary: 4f46343e74e74a7ee8373ffeeaf772dfb330cbd7
   GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
-  leveldb-library: 44ef425bfde64f5b41daef86b38db2d13edbbee1
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Pager: f998c054e5074e987bd73d73ca903875acfbd365
   Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
   Pulley: 7abf04a13c0d4681b3c21a4b4bb0bc83612899ae
+  SkyFloatingLabelTextField: 703aa1420b697392b1e7dba25571180dde018477
 
-PODFILE CHECKSUM: 7fa5edc768e5e7e3a47b518c1ff7fe6d7159d306
+PODFILE CHECKSUM: a5a33eb729d40a08e28637d8c8b170a513181d2e
 
 COCOAPODS: 1.3.1

@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class SignInVC: UIViewController {
+class SignInVC: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var emailBox: UITextField!
     @IBOutlet weak var passwordBox: UITextField!
@@ -17,7 +17,9 @@ class SignInVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.emailBox.delegate = self
+        self.passwordBox.delegate = self
         // Do any additional setup after loading the view.
     }
     @IBAction func signInTapped(_ sender: Any) {
@@ -29,7 +31,7 @@ class SignInVC: UIViewController {
                     alertController.addAction(defaultAction)
                     self.present(alertController, animated: true, completion: nil)
                 } else {
-                    self.performSegue(withIdentifier: "signedIn", sender: nil)
+                    self.performSegue(withIdentifier: "signedIn",  sender: nil)
                 }
             }
         } else {
@@ -38,5 +40,9 @@ class SignInVC: UIViewController {
             alertController.addAction(defaultAction)
             present(alertController, animated: true, completion: nil)
         }
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
 }
